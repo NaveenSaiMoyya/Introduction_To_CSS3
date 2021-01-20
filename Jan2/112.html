@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="common.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document-2</title>
+</head>
+<body>
+    <nav>
+        <a href="111.html"><=</a>
+        **********************************
+        <a href="113.html">=></a>
+    </nav>
+    <pre>
+<h2>Different ways to write CSS:</h2>
+
+          _- Inline CSS (not recommended and not used)
+        _-
+3 ways - - - Internal Styling
+        -_
+          -_ External Styling
+
+
+<h4>Internal Styling:</h4>
+=> uses style tag (&lt;style&gt;) inside head tag (&lt;head&gt;).
+
+<h4>External Styling:</h4>
+=> Keep CSS rules in an external file with <b>.css</b> extension.
+=> link it to HTML head section using &lt;head&gt;.
+<img src="images/3ways.jpg" alt="" height="250px" width="500px">
+
+Preference:
+Inline  >  Internal  >  External  >   Default
+-> If same selector is defined in more than 2 external files that are linked to an HTML page.
+                       -> Rules from most recent file will have precedence.
+-> If a selector has same rule (property) with different values.
+                       -> one at the last will be counted.
+
+!important  => when used with a rule, the rule cannot be overwritten.
+               cannot be considered if written once again.
+<img src="images/important.jpg" alt="">
+<a href="https://uxengineer.com/css-specificity-avoid-important-css/">If all your styles are !important, then none of your styles are important.
+</a>
+<a href="http://www.csszengarden.com/"><img src="images/csszengarden.png" alt="" height="50px"></a>
+    </pre>
+</body>
+</html>

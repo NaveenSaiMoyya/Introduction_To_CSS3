@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="common.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document-6</title>
+</head>
+<body>
+    <nav>
+        <a href="115.html"><=</a>
+        **********************************
+        <a href="117.html">=></a>
+    </nav>
+    <pre>
+<h1>BOX MODEL</h1>
+-> The height & width of any inline element will be the content itself.
+-> elements which are not inline can take width & height properties.
+
+<h2>BORDER</h2>
+-> any element can have a border around it.
+-> border property specifies <u>style</u>, <u>width</u>, & <u>color</u>.
+-> width & color are 1px & black by default and style must be specified.
+<img src="images/border.png" alt="" height="150px">
+
+BORDER-STYLE: 
+- none, dotted, dashed, solid, double, groove, ridge, inset, outset, hidden
+<img src="images/border-width.png" alt="" height="350px">
+
+<h2>MARGIN</h2>
+-> additional space outside the border.
+-> space b/w the element & it's neighbour.
+-> +ve margin, -ve margin.
+
+<h2>PADDING</h2>
+-> space between an element and it's border.
+-> +ve padding, -ve padding.
+
+    --> Margin & padding doesn't take any color values.
+    --> Padding is color of element.
+    --> Margin has color of parent(mostly body)
+
+<img src="images/box-model.gif" alt="">
+
+Actual Width of an element:
+            -> L&R margins + L&R Borders + L&R Paddings + Width
+
+Actual Height of an element:
+            -> T&B margins + T&B Borders + T&B Paddings + Height
+
+<h2>BOX-SIZING</h2>
+-> content-box  => default additive.
+-> border-box   => width takes content, padding, & border into consideration.
+                   (ie., if we want width to be 200px, it makes <u>200px - padding - border)</u>
+    </pre>
+</body>
+</html>

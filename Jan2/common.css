@@ -1,0 +1,21 @@
+body{
+    font-size: x-large;
+}
+
+pre{
+    color: green;
+    background-color: powderblue;
+}
+
+pre::selection{
+    background-color: sienna;
+    color: white;
+}
+
+a{
+    border: 2px dotted red;
+    border-radius: 5px;
+
+}
+
+
